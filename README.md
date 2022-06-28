@@ -5,4 +5,4 @@ Show ip on static pages using javascript
 
 ### dependencies
 
-* [ipify API (ADB)](https://www.ipify.org/)
+* [ipify API](https://www.ipify.org/)
