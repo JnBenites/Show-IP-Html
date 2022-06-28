@@ -1,0 +1,20 @@
+body{
+	background: #0f0f0f;
+	color: #e7eff6;
+	height: 100vh;
+	text-align: center;
+}
+.container{
+	padding-top: 150px
+}
+.img-gnow{
+	width: 250px;
+	height: auto;
+	border: 1px;
+	border-color: red;
+}
+.img-gmail{
+	width: 50px;
+	height: auto;
+	border-color: red;
+}
