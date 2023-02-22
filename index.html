@@ -1,21 +1,19 @@
 <!DOCTYPE html>
+<html>
 <head>
-    <title>Show IP</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="myscripts.js"></script>
-	<meta http-equiv="refresh" content="6">
+  <title>Show IP</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta http-equiv="refresh" content="6">
+  <script src="https://api.ipify.org?format=jsonp&callback=function(json) { document.getElementById('mydiv').innerHTML = json.ip; }"></script>
 </head>
 <body>
-	<div class="container">
-		<div>
-			<h3>Your ip is: <a id="mydiv"></a><h3>
-		</div>
-		<div>
-			<a href="https://play.geforcenow.com"><img class="img-p" src="https://www.nvidia.com/content/dam/en-zz/Solutions/SHIELD/overview/phase2/icon-geforce-now@2x.png"  title="Open GeForce NOW"></a>
-			<br>
-			<a href="https://gmail.com/" target="_blank"><img class="img-p" src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_dark_1x_r2.png" title="Open Gmail"></a>	
-		</div>
-
-	<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+  <div class="container">
+    <div>
+      <h3>Your ip is: <span id="mydiv"></span></h3>
+    </div>
+  </div>
+  <a href="https://play.geforcenow.com"><img class="img-p" src="https://www.nvidia.com/content/dam/en-zz/Solutions/SHIELD/overview/phase2/icon-geforce-now@2x.png"  title="Open GeForce NOW"></a>
+  <br>
+  <a href="https://gmail.com/" target="_blank"><img class="img-p" src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_dark_1x_r2.png" title="Open Gmail"></a> 
 </body>
 </html>
